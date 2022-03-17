@@ -1,0 +1,178 @@
+*{
+    margin: 0%;
+    padding: 0%;   
+    font-family: "Open Sans";
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FF004D;
+    height: 450px;
+    
+}
+.container{
+    margin-bottom: 50px;
+}
+.header h2{
+    margin-bottom: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+.header h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: 100px;
+}
+
+.pricing-card{
+    margin: 10px;
+    max-width: 360px;
+    background-color: #fff;
+    margin: 20px 10px;
+    border-radius: 10px;
+    text-align: left;
+    border: 1px solid transparent;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    padding: 31px 31px;
+    overflow: hidden;
+    color: #2d2d2d;
+}
+
+.pricing-card-header{
+    color: #1E2338;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+}
+.price{
+    font-size: 70px;
+}
+
+.pricing-card p{
+    margin-top: 20px;
+    margin-bottom: 17px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+color: #828799
+}
+.price sup{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #1E2338;
+}
+.price span{
+    font-size: 18px;
+}
+.pricing-card_b li{
+    margin-top: 20px;
+    margin-bottom: 17px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+color: #828799;
+}
+.pricing-card_b li::before{
+    content: "\2714";
+    color: #59CE9F;
+    padding-right: 20px;
+
+}
+.pricing-card li{
+    margin-top: 20px;
+    margin-bottom: 17px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828799;
+}
+
+.pricing-card li::before {
+    content: "\2714";
+    color: #59CE9F;
+    padding-right: 20px;
+}
+.button{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;  
+    color: #1D539E;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    margin-top: 100px;
+    border: 1px solid #1D539E;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+.btns{
+    
+    text-align: center;
+    padding: 12px 24px;
+}
+.button_b{
+    width: 296px;
+    height: 51px;
+    border: none;
+    color: #fff;
+    background: #FF004D;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+    flex: none;
+    
+}
+.button_b:hover{
+    background: rgba(0, 0, 0, 0);
+    color: #FF004D;
+    box-shadow: inset 0 0 0 3px #FF004D;
+}
