@@ -19,6 +19,7 @@
 }
 .header h2{
     margin-bottom: 20px;
+    margin: 10px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -27,6 +28,7 @@
     color: #FFFFFF;
 }
 .header h3{
+    margin: 10px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -45,7 +47,7 @@
 
 .pricing-card{
     margin: 10px;
-    max-width: 360px;
+    max-width: 300px;
     background-color: #fff;
     margin: 20px 10px;
     border-radius: 10px;
@@ -152,19 +154,19 @@ color: #828799;
     padding: 12px 24px;
 }
 .button_b{
-    width: 296px;
-    height: 51px;
+    display: flex;
+    padding: 12px 24px;
     border: none;
     color: #fff;
     background: #FF004D;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    margin: 0px 10px;
+    margin-top: 100px;
     font-size: 24px;
     line-height: 24px;
     border-radius: 10px;
-    position: relative;
     box-sizing: border-box;
     cursor: pointer;
     transition: all 400ms ease;
